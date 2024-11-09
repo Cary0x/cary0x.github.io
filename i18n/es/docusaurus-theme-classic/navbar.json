@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Cary0x2's Unofficial Pond0x Info",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Cary0x's Pond0x Info",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Dashboard": {
+    "message": "Dashboard",
+    "description": "Navbar item with label Dashboard"
+  },
+  "item.label.Status": {
+    "message": "Status",
+    "description": "Navbar item with label Status"
+  },
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  },
+  "item.label.Tips": {
+    "message": "Tips",
+    "description": "Navbar item with label Tips"
+  }
+}

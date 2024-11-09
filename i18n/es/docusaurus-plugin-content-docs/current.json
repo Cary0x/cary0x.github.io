@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category Guides in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Check In": {
+    "message": "Check In",
+    "description": "The label for category Check In in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Friends": {
+    "message": "Friends",
+    "description": "The label for category Friends in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Mine": {
+    "message": "Mine",
+    "description": "The label for category Mine in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Plug": {
+    "message": "Plug",
+    "description": "The label for category Plug in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Predict": {
+    "message": "Predict",
+    "description": "The label for category Predict in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Rank": {
+    "message": "Rank",
+    "description": "The label for category Rank in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Spawn": {
+    "message": "Spawn",
+    "description": "The label for category Spawn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Splash": {
+    "message": "Splash",
+    "description": "The label for category Splash in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Swap": {
+    "message": "Swap",
+    "description": "The label for category Swap in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Teleport": {
+    "message": "Teleport",
+    "description": "The label for category Teleport in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Water": {
+    "message": "Water",
+    "description": "The label for category Water in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Information": {
+    "message": "Information",
+    "description": "The label for category Information in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Issues": {
+    "message": "Issues",
+    "description": "The label for category Issues in sidebar tutorialSidebar"
+  }
+}

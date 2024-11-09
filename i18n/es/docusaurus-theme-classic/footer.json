@@ -1,0 +1,58 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Pond Sites": {
+    "message": "Pond Sites",
+    "description": "The title of the footer links column with title=Pond Sites in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Overview": {
+    "message": "Overview",
+    "description": "The label of footer link with label=Overview linking to /docs"
+  },
+  "link.item.label.Guides": {
+    "message": "Guides",
+    "description": "The label of footer link with label=Guides linking to /docs/guides"
+  },
+  "link.item.label.Information": {
+    "message": "Information",
+    "description": "The label of footer link with label=Information linking to /docs/info"
+  },
+  "link.item.label.Issues": {
+    "message": "Issues",
+    "description": "The label of footer link with label=Issues linking to /docs/issues"
+  },
+  "link.item.label.Pond0x": {
+    "message": "Pond0x",
+    "description": "The label of footer link with label=Pond0x linking to https://www.pond0x.com"
+  },
+  "link.item.label.Pondx": {
+    "message": "Pondx",
+    "description": "The label of footer link with label=Pondx linking to https://www.pondx.com"
+  },
+  "link.item.label.PondCoin": {
+    "message": "PondCoin",
+    "description": "The label of footer link with label=PondCoin linking to https://www.pondcoin.com"
+  },
+  "link.item.label.Community": {
+    "message": "Community",
+    "description": "The label of footer link with label=Community linking to community"
+  },
+  "link.item.label.Contact": {
+    "message": "Contact",
+    "description": "The label of footer link with label=Contact linking to contact"
+  },
+  "link.item.label.Tips": {
+    "message": "Tips",
+    "description": "The label of footer link with label=Tips linking to /tips"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Cary0x. | <a href=\"privacy-policy\">Privacy Policy</a>",
+    "description": "The footer copyright"
+  }
+}
