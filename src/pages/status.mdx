@@ -1,0 +1,45 @@
+---
+id: status
+title: Status
+---
+
+import ActivityTracker from "@site/src/components/ActivityTracker";
+
+import MiningStatusBar from "@site/src/components/MiningStatusBar";
+
+import SwapStatusBar from "@site/src/components/SwapStatusBar";
+
+import SpawnStatusBar from "@site/src/components/SpawnStatusBar";
+
+import PopoutLink from "@site/src/components/PopoutLink";
+
+import { Spotify } from "react-spotify-embed";
+
+# Pond0x Status
+
+<MiningStatusBar />
+
+- The mining status looks for all active Mining sessions that reported a &gt;10M unclaimed amount in the past 60 seconds.
+- The second number is the total number of unique miners sending valid signals in the past 60 seconds. If this ever goes to 0, then mining is either completely down or untested for up/down.
+- This is a good indicator that mining is active, but it may be delayed for when it stops.
+
+<SwapStatusBar />
+
+The swap status checks for swap rewards that were sent out in the last 10 minutes / 1 hour / 3 hours.
+
+<SpawnStatusBar />
+
+The spawn status will check for the progress and locked status of spawning. It is not live, so it will not be immediate. This will be more useful for watching the vial fill than knowing exactly when it activates.
+
+<PopoutLink url="/status-mini" width={400} height={465}>
+  ## Mini Status Popout
+</PopoutLink>
+
+Use this Mini-Status to watch Pond0x status without taking up a lot of screen space.
+
+**Mood**:
+
+<Spotify
+  wide
+  link="https://open.spotify.com/playlist/4xZH00cqbb8bvPLjUZGKVI?si=XoQfnY06RjuUxD6jHrmVcA"
+/>
