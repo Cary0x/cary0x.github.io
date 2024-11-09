@@ -1,0 +1,20 @@
+---
+id: jupiter
+title: "Jupiter Checker"
+---
+
+Ignore this page. It has nothing to do with Pond0x. It was used for the 2025 Jupuary check, but it is no longer relevant.
+
+# Jupiter Claim Tester
+
+Enter any SOL wallet address to get your claim information. This page will self destruct in a few days.
+
+import JupiterTester from "@site/src/components/JupiterTester";
+
+<JupiterTester />
+
+You can [Claim Here](https://jupuary.jup.ag/)!
+
+Note – I have no connection to this project whatsoever. Please click with care.
+
+Please [consider tipping](/tips) to fuel more tools.

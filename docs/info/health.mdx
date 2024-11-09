@@ -1,0 +1,99 @@
+---
+sidebar_position: 1001
+title: Mining Health Data
+---
+
+import HealthData from "@site/src/components/FetchPages/HealthData";
+
+# Mining Health
+
+This data is exactly how it is returned on Pond0x. I do not alter the data (besides setting to 2 decimal points).
+
+Note, if you do not have PRO, you will not get results (yet).
+
+Enter your Solana address to get your main manifest data.
+
+<HealthData />
+
+## Data
+
+**Health** - Your rigs total health. It ranges from 1-9. 7 fills the bar to 100%, so you can technically be 129% healthy.
+
+**Mining Sessions** - Number of total mining sessions.
+
+**In Mempool** - Number of total mining sessions in the Mempool.
+
+**Sent** - Number of total mining sessions that have been claimed.
+
+**Failed** - Number of total mining sessions that have failed.
+
+**Drifted** - Number of total mining sessions that have drifted.
+
+**Drift Risk** - Number of total mining sessions that are at risk of drifting.
+
+**Priority** - Ranges from 1-100. Seems to be an indicator on where you are on the claims lists. Higher is better.
+
+**Estimated SOL USD** - Estimated earned rewards in SOL USD.
+
+**Estimated wPond USD** - Estimated earned rewards in wPond USD.
+
+**Estimated Drift Risk USD** - Estimated rewards at risk of being drifted in USD.
+
+**Estimated Max Claim Estimate USD** - Estimated maximum potential rewards in USD.
+
+**Estimated Drifted USD** - Estimated drifted rewards in USD.
+
+**AI Notes** - These are notes that you can use to improve the health of your rig to prevent drifting and maximize rewards.
+
+### Market Dependency
+
+- All estimations and values are based on current **market prices**—especially the price of **SOL**.
+- Everything from **spam thresholds**, **outflow behavior**, and **claim value** to **user contribution scores** is influenced by the price of SOL.
+- The system is **fluid**, with recalculations happening every **60–90 seconds**.
+- A small change in **wpond** can shift everything—prices, multipliers, and thresholds are interconnected.
+
+### Dynamic Thresholds
+
+- Your **user threshold** is set based on real-time variables and multipliers.
+- As you profit, your **cap as a user lowers**, encouraging you to **improve your multipliers**.
+- Understanding these thresholds can increase your share of future claims.
+
+### Health Insights
+
+- Pond0x monitors conditions and fires **AI-generated messages** when issues arise.
+- These messages are based on interval assessments of rig data, generating **fair but non-fixed** health insights.
+- No LLMs are directly involved to avoid hallucinations or creating unfair advantages.
+
+### Strategies for Success
+
+- The goal is to **maximize your rig's outcome potential**, regardless of time horizon (3 months, 1 year, 30 hours).
+- Learning how to **shape your metrics** is more important than simply waiting out lock periods.
+- Ideal strategy: **Try something, see what happens, reinforce what works**.
+
+### (Feature coming soon) Data & Trends
+
+- Users can access 3 main data views:
+  1. **Sessions in Mempool**
+  2. **Likely to Drift**
+  3. **Has Drifted**
+- Each includes **amount, signatures, and block information**.
+- These views help identify what’s working, what isn’t, and how trends evolve with price fluctuations.
+
+### Important Notes
+
+- Don’t jump in with **100 SOL** boosts without understanding the system—expectations must be managed.
+- The **speed of activity is fast**. Sessions, locks, and boosts can shift in under a minute.
+
+### Boosting & Swapping
+
+- Buying Boosts affects your **multiplier and tipping metrics**, improving your **claim likelihood**.
+- **Swaps activity** adds momentum and ties into **Giga Swap rewards**.
+- PLUG creates overall system momentum—especially when SOL is rising, which improves health faster.
+
+### Miner Lifecycle Impact
+
+- **Newer miners** see faster value changes.
+- **Older miners** need more activity due to **weighed averages**.
+  - E.g., 800+ sessions might need major activity to shift values.
+  - 1000s of sessions could take 1000s of interactions.
+- **Data resets per epoch**, recalculating values based on prior performance.
