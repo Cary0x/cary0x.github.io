@@ -1,0 +1,37 @@
+---
+sidebar_position: 1001
+title: Luck Data
+---
+
+import LuckData from "@site/src/components/FetchPages/LuckData";
+
+# Luck Data
+
+This data is exactly how it is returned on Pond0x. I do not alter the data (besides rounding to 2 decimal points).
+
+Enter your Solana address to get your main manifest data.
+
+<LuckData />
+
+**Luck** - The Luck number as it appears on your [My Wins](https://www.pond0x.com/solana/leaderboard) page.
+
+**Impact** - Various tags to show you what might be modifying your Luck score.
+
+(You can in fact have multiples of any of these things. UI will only show 0-10. These gradually return to default every slow window. E.g. if your burn is outside of that range, it will no longer be counted. E.g. if your referrals are outside of that range, it will no longer be counted.)
+
+- luck.bad.used - (-3 Luck) - Win too many times without contributing?
+- luck.bad.highselling - (-1 to -20 Luck) - Indicates negative participation. (Slashes)
+- luck.boost.sol - (Greater +Luck multiple if user has existing luck) - Paid for boost.
+- luck.good.active.friends - (+3 Luck) - User received referral rewards paid to them give them more luck.
+- luck.good.active - Actively swapping x in the last 30 days?
+- luck.good.burn.micro (+0 Luck - token has no value) - Luck gained from burning tokens.
+- luck.good.burn.mini (+3 Luck - token has no value) - Luck gained from burning tokens.
+- luck.good.burn.major (+4 Luck - token has no value) - Luck gained from burning tokens.
+- luck.good.burn.mega (+5 Luck - token has no value) - Luck gained from burning tokens.
+- luck.good.burn.mega (+6 Luck - token has no value) - Luck gained from burning tokens.
+
+**Recent Referrals** - Recent Referrals as listed on your [My Friends](https://www.pond0x.com/solana/friends) page.
+
+**Recent Referral Txns** - Recent Referral Transactions as listed on your [My Friends](https://www.pond0x.com/solana/friends) page.
+
+**Generated** - Earned Rewards as listed on your [My Friends](https://www.pond0x.com/solana/friends) page.
