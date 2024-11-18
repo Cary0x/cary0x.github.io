@@ -23,7 +23,7 @@ Guide: https://phantom.app/learn/guides/how-to-create-a-new-wallet
 
 ## Notes
 
-If you have another app like MetaMask wallet for Etherium, you can continue to use it, if you want.  It is likely easier to import that wallet into Phantom, but that is up to you.  The majority of actions performed on Pond0x will only require the Solana wallet to be connected.
+If you have another app like MetaMask wallet for Ethereum, you can continue to use it, if you want.  It is likely easier to import that wallet into Phantom, but that is up to you.  The majority of actions performed on Pond0x will only require the Solana wallet to be connected.
 
 I highly recommend doing all actions within the ecosystem on the same wallet pair.  Swapping, mining, locking, spawning, burning, etc. all combine into a shared set of boost, luck, reward modifiers, etc.  Doing this on separate wallets will give you fewer rewards.
 
