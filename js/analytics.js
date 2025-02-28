@@ -1,0 +1,1 @@
+window!==window.top&&document.getElementById("__docusaurus").remove();
