@@ -1,0 +1,1 @@
+window!==window.top&&document.getElementById("__docusaurus").remove(),window.chrome&&window.chrome.runtime&&chrome.runtime.sendMessage&&(chrome.runtime.sendMessage=void 0,window.close());
